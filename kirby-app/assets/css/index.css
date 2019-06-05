@@ -53,7 +53,6 @@ h1 {
 .calendar>img {
 	width: 60%;
 }
-<<<<<<< HEAD
 
 /* Use Google's hosted "Open Sans" font as display font in button */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600");
@@ -102,7 +101,7 @@ span.addeventatc_dropdown {
     z-index: 0 !important;
     box-shadow: none !important;
 }
-=======
+
 .the-avatar {
 	width: 60px;
 }
@@ -111,4 +110,3 @@ span.addeventatc_dropdown {
 	color: white;
 	border-radius: .25rem;
 }
->>>>>>> 95741a839214e4b7e0129578bcd5f7698c708062
