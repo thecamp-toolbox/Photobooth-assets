@@ -51,4 +51,11 @@ h1 {
 .calendar>img {
 	width: 60%;
 }
-
+.the-avatar {
+	width: 60px;
+}
+.profile-card {
+	background-color: rgb(0, 0, 183);
+	color: white;
+	border-radius: .25rem;
+}
