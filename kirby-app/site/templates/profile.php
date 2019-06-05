@@ -44,30 +44,34 @@
   <p class="mt-5">
      Où souhaitez vous agir ?
   </p>
+
+  <div class="button-group filters-button-group">
+
   <ul class="nav nav-pills nav-justified">
     <li class="nav-item">
-      <a class="nav-link active mr-2" href="">À LA MAISON</a>
+      <a class="button is-checked nav-link active mr-2" data-filter="maison">À LA MAISON</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link ml-2" href="">DEHORS</a>
+      <a class="button nav-link ml-2" data-filter="dehors">DEHORS</a>
     </li>
   </ul>
 
   <ul class="nav nav-pills nav-justified ">
     <li class="nav-item">
-      <a class="nav-link mr-2" href="">AU TRAVAIL</a>
+      <a class="nav-link mr-2" data-filter="travail">AU TRAVAIL</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link ml-2" href="">ÉVÉNEMENTS</a>
+      <a class="nav-link ml-2" data-filter="evenements">ÉVÉNEMENTS</a>
     </li>
   </ul>
 
-  <a class="btn btn-block mb-3" href="">SUR LE FESTIVAL</a>
+  <a class="btn btn-block mb-3" data-filter="festival">SUR LE FESTIVAL</a>
+</div>
 
 
-  <div class="mt-5">
+  <div class="mt-5 grid" data-isotope='{ "itemSelector": ".element-item", "layoutMode": "fitRows" }'>
     <?php foreach ($page->actions()->toStructure() as $action) : ?>
-      <div class="card mb-5 <?= $action->type() ?> bg-dark">
+      <div class="card element-item  mb-5 <?= $action->type() ?> bg-dark">
         <div class="card-body">
           <h5 class="card-title">
             <?= $action->action() ?>

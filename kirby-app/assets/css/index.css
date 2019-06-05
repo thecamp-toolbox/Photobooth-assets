@@ -18,6 +18,7 @@ src: url("../font/GT-America-Standard-Regular.ttf");
 
 html, body {
 	height: 100%;
+	scroll-behavior: smooth;
 }
 body {
 	background-image: url('../images/wood.jpg');
