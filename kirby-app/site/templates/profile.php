@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div class="container landing">
+<div class="container-fluid landing">
   <h1><?= $page->title() ?></h1>
 
   <ul class="nav nav-pills nav-justified">
@@ -19,7 +19,7 @@
   <!-- Mettre l'icone ici -->
 </div>
 
-<div id="profil" class="container yellow pt-3 pb-3">
+<div id="profil" class="container-fluid yellow pt-3 pb-3">
   <h2>Mon profil :<br></h2>
   <span class="profil-title"><?= $page->title() ?></span><br>
 
@@ -31,27 +31,31 @@
 
 <img src="<?= $site->url() ?>/assets/images/bg2.png" class="img-fluid">
 
-<div id="agir" class="container blue pb-1">
+<div id="agir" class="container-fluid blue pb-1">
   <h4>Agir</h4>
   <p>Voici quelques exemples d'actions correspondant à votre profil</p>
 
   <ul class="nav nav-pills nav-justified mb-3">
     <li class="nav-item">
-      <a class="nav-link active mr-2" href="#profil">À LA MAISON</a>
+      <a class="nav-link active mr-2" href="">À LA MAISON</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active ml-2" href="#agir">DEHORS</a>
+      <a class="nav-link ml-2" href="">DEHORS</a>
     </li>
   </ul>
 
   <ul class="nav nav-pills nav-justified mb-3">
     <li class="nav-item">
-      <a class="nav-link active mr-2" href="#profil">AU TRAVAIL</a>
+      <a class="nav-link mr-2" href="">AU TRAVAIL</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active ml-2" href="#agir">ÉVÉNEMENT</a>
+      <a class="nav-link ml-2" href="">ÉVÉNEMENTS</a>
     </li>
   </ul>
+
+  <a class="btn btn-block mb-3" href="">SUR LE FESTIVAL</a>
+
+
 
   <div class="mt-4">
     <?php foreach ($page->actions()->toStructure() as $action) : ?>
@@ -60,8 +64,6 @@
           <h5 class="card-title">
             <?= $action->action() ?>
           </h5>
-          avec <?= $action->org() ?> - 
-          <a href="<?= $action->orglink() ?>" target="_blank">GO</a>
         </div>
         <a href="" class="calendar">
           <img src="<?= $site->url() ?>/assets/images/calendar.png" class="img-fluid">
