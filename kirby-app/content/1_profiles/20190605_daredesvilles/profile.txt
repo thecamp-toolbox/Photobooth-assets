@@ -1,0 +1,80 @@
+Title: DareDesVilles
+
+----
+
+Subject: Amélioration du cadre de vie et de l’habitat
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+- urbanisme.png
+
+----
+
+Intro: Plus belle la ville !
+
+----
+
+Text: 
+
+Réinventer nos interactions sociales et nos modes de vie autour de notre habitat est un enjeu majeur de notre société de plus en plus urbanisée, et cela vous anime!
+
+Vie de quartier, infrastructures partagées, qualité de l’air, nuisances sonores, intégration de la nature en ville sont autant de sujets au centre de vos préoccupations pour le monde de demain.
+
+Envie de vous engager plus activement pour l’amélioration du cadre de vie et de l’habitat?
+
+----
+
+Actions: 
+
+- 
+  action: >
+    Passer chez un fournisseur
+    d’électricité verte
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Mettre en place un composteur collectif,
+    un jardin partagé
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Inciter votre quartier à utiliser des
+    voitures partagées
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Organiser la fête des voisins dans
+    votre quartier
+  thedate: ""
+  type: dehors
+- 
+  action: Soutenir une association militante
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Proposer du covoiturage à vos
+    collègues du même quartier
+  thedate: ""
+  type: travail
+- 
+  action: "Visiter un appartement étudiant de manière virtuelle ! À l'Agora"
+  thedate: ""
+  type: festival
+- 
+  action: 'Utiliser une monnaie locale et 100% dijonnaise. Au toit des associations'
+  thedate: ""
+  type: festival
+- 
+  action: 'Fête des voisins : 24 mai 2019'
+  thedate: 2019-05-24
+  type: evenements

@@ -1,28 +1,16 @@
 <?php snippet('header') ?>
 
 <main>
-  <header class="intro">
-    <h1><?= $site->title() ?></h1>
-  </header>
 
-  <ul class="grid">
-    <?php foreach (page('profiles')->children()->listed() as $album): ?>
-    <li>
-      <a href="<?= $album->url() ?>">
-        <figure>
-          <?php if ($cover = $album->cover()): ?>
-          <?= $cover->resize(1024, 1024) ?>
-          <?php endif ?>
-          <figcaption>
-            <span>
-              <span class="example-name"><?= $album->title() ?></span>
-            </span>
-          </figcaption>
-        </figure>
-      </a>
-    </li>
+  <div class="container-fluid">
+	<header class="intro">
+	    <h1><?= $site->title() ?></h1>
+	</header>
+
+    <?php foreach (page('profiles')->children()->listed() as $item): ?>
+      <?php snippet('profile-card', array('item'=>$item)) ?>
     <?php endforeach ?>
-  </ul>
+  </div>
 
 </main>
 

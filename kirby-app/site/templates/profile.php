@@ -26,6 +26,8 @@
   <h2>Mon profil :<br></h2>
   <span class="profil-title"><?= $page->title() ?></span><br>
 
+  <p>Enjeu : <?= $page->subject() ?></p>
+
   <a href="#" class="btn btn-primary mb-5">Partager mon profil</a>
   <?= $page->text()->kt() ?>
 
@@ -78,5 +80,22 @@
 </div>
 
 <img src="<?= $site->url() ?>/assets/images/bg3.png" class="img-fluid">
+
+<div class="container mt-5 mb-3">  
+  <nav id="menu" class="menu">
+
+    <h2 class="mb-3">Autres profils</h2>
+
+      <?php foreach (page('profiles')->children()->listed() as $item): ?>
+
+      <?php if ($page->url() != $item->url()) : ?>
+
+        <?php snippet('profile-card', array('item'=>$item)) ?>
+
+      <?php endif ?>
+        
+      <?php endforeach ?>
+  </nav>
+</div>
 
 <?php snippet('footer') ?>

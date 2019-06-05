@@ -1,0 +1,112 @@
+Title: Thésaurus Rex
+
+----
+
+Subject: Éducation et culture
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+- education.png
+
+----
+
+Intro: S'amuser au musée !
+
+----
+
+Text: 
+
+Dans un monde où les inégalités se creusent, l’accès à l’éducation et à la culture est un enjeu majeur de notre génération et des suivantes, et cela vous anime!
+
+Échec scolaire, illetrisme, droit à l’éducation, diffusion de la culture, développement de l’esprit critique, protection du patrimoine sont autant de sujets au centre au centre de vos préoccupations pour le monde de demain.
+
+Envie de vous engager plus activement pour l’éducation et la culture ?
+
+----
+
+Actions: 
+
+- 
+  action: >
+    Organiser des sorties culturelles en
+    famille (cinéma, exposition, concert,
+    musée, etc.)
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Partager ma bibliothèque sur
+    inventaire.io
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Accompagner des jeunes en difficulté
+    sur le temps extra scolaire
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Animer des ateliers Français Langue
+    Étrangère
+  thedate: ""
+  type: dehors
+- 
+  action: M’engager dans une action humanitaire
+  thedate: ""
+  type: dehors
+- 
+  action: 'Soutenir une association militante '
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Construire (et maintenir) une
+    bibliothèque de rue
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Partager l’agenda culturel de la
+    région avec mes collègues
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Solliciter le CSE et/ou le CE de mon
+    entreprise sur la promotion de la
+    culture
+  thedate: ""
+  type: travail
+- 
+  action: "Participer à l’accès à la culture en donnant votre voix pour la réalisation de livres audio. À l'Agora"
+  thedate: ""
+  type: festival
+- 
+  action: 'Faire de son corps une œuvre d’art au stand de tatouages phosphorescents - à la Friche Urbaine'
+  thedate: ""
+  type: festival
+- 
+  action: >
+    Rencontrer le célèbre dessinateur
+    Plantu au chapiteau des idées
+  thedate: ""
+  type: festival
+- 
+  action: 'Journée du Patrimoine : 21 et 22 septembre 2019'
+  thedate: 2019-09-21
+  type: evenements
+- 
+  action: 'Fête de la musique : 21 juin'
+  thedate: 2019-06-21
+  type: evenements
+- 
+  action: 'Nuit des musées : 18 mai 2019'
+  thedate: 2019-05-18
+  type: evenements
