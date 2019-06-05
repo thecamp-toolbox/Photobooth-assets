@@ -66,11 +66,12 @@
           <h5 class="card-title">
             <?= $action->action() ?>
           </h5>
-          <?= $action->thedate() ?>
         </div>
-        <a href="" class="calendar">
-          <img src="<?= $site->url() ?>/assets/images/calendar.png" class="img-fluid">
-        </a>
+        <div class="addeventatc calendar" data-intel="false" >
+          <span class="start"><?= $action->thedate() ?></span>
+          <span class="timezone">Europe/Paris</span>
+          <span class="title">  <?= $action->action() ?>  </span>
+        </div>
       </div>
     <?php endforeach ?>
   </div>
