@@ -1,22 +1,12 @@
 <?php snippet('header') ?>
 
-<main>
-  <header class="intro">
-    <h1><?= $page->title() ?></h1>
-  </header>
 
-  <div class="notes">
-    <?php foreach ($page->children()->listed()->sortBy('date', 'desc') as $note): ?>
-    <article class="note">
-      <header class="note-header">
-        <a href="<?= $note->url() ?>">
-          <h2><?= $note->title() ?></h2>
-        </a>
-      </header>
-    </article>
+  <div class="container-fluid mt-3 mb-3">
+    <?php foreach ($page->children()->listed() as $item): ?>
+      <?php snippet('profile-card', array('item'=>$item)) ?>
     <?php endforeach ?>
   </div>
 
-</main>
+
 
 <?php snippet('footer') ?>

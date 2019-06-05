@@ -78,4 +78,21 @@
 
 <img src="<?= $site->url() ?>/assets/images/bg3.png" class="img-fluid">
 
+<div class="container mt-5 mb-3">  
+  <nav id="menu" class="menu">
+
+    <h2 class="mb-3">Autres profils</h2>
+
+      <?php foreach (page('profiles')->children()->listed() as $item): ?>
+
+      <?php if ($page->url() != $item->url()) : ?>
+
+        <?php snippet('profile-card', array('item'=>$item)) ?>
+
+      <?php endif ?>
+        
+      <?php endforeach ?>
+  </nav>
+</div>
+
 <?php snippet('footer') ?>
