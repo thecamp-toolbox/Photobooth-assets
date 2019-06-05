@@ -1,0 +1,117 @@
+Title: Haltère Mondialiste
+
+----
+
+Subject: Sport et santé
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+- sport.png
+
+----
+
+Intro: Se dépasser pour se déplacer !
+
+----
+
+Text: 
+
+Lutter contre la sédentarisation et les effets de l’urbanisation de la population est sans conteste un enjeu majeur de notre société, et cela vous anime !
+
+Actif et activiste, vous êtes convaincu que le sport est un puissant allié santé et bien-être, mais également un formidable activateur de lien social et de transmission de valeurs, auquel chacun devrait avoir accès.
+
+Envie de vous engager plus activement ?
+
+----
+
+Actions: 
+
+- 
+  action: >
+    Inciter mon entourage à pratiquer une
+    activité physique régulière
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Organiser des activités physiques en
+    famille (marche, footing, sortie vélo,
+    etc.)
+  thedate: ""
+  type: maison
+- 
+  action: Préférer la marche à la voiture
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    M’inscrire dans un club de sport
+    (association, structure privée, etc.)
+  thedate: ""
+  type: dehors
+- 
+  action: Participer à une asso de mon quartier
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Soutenir une association militante
+    “sport pour tous”
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Donner son sang / plasma / moëlle
+    osseuse
+  thedate: ""
+  type: dehors
+- 
+  action: Aller au travail en vélo
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Organiser des activités sportives dans
+    mon entreprise sur la pause du midi ou
+    après la journée de travail (tournoi
+    de sport collectif, footing, session
+    yoga, etc.)
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Inciter l’installation d’une salle
+    de sport sur mon lieu de travail
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Solliciter le CSE et/ou le CE de mon
+    entreprise sur la promotion du sport
+    (participation financière à des
+    inscriptions, mise en place de
+    l’indemnité kilométrique vélo,
+    etc.)
+  thedate: ""
+  type: travail
+- 
+  action: "Un petit massage et ça repart ! stand massage assis à l'Agora"
+  thedate: ""
+  type: festival
+- 
+  action: "Venir tester le biathlon avec Le défi Martin Fourcade à l'Agora"
+  thedate: ""
+  type: festival
+- 
+  action: >
+    Se dépenser sur un parcours sportif pas
+    comme les autres au toit des
+    associations
+  thedate: ""
+  type: festival

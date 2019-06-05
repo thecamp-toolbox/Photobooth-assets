@@ -1,0 +1,91 @@
+Title: Épris de justice
+
+----
+
+Subject: Lutte contre les discriminations
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+- discrimination.png
+
+----
+
+Intro: Tous les egos sont égaux !
+
+----
+
+Text: 
+
+Promouvoir une société tolérante et respectueuse des différences, est un enjeu majeur de notre génération et cela vous anime!
+
+Inclusion sociale, égalité des chances, accessibilité, laïcité, égalités H/F sont autant de sujets au centre de vos préoccupations pour le monde de demain.
+
+Envie de vous engager plus activement contre les discriminations ?
+
+----
+
+Actions: 
+
+- 
+  action: Apprendre le langage des signes
+  thedate: ""
+  type: maison
+- 
+  action: Revoir le partage des tâches
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Dénoncer des situations de
+    discrimination
+  thedate: ""
+  type: dehors
+- 
+  action: Soutenir une association militante
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Organiser des actions de sensibilisation
+    au handicap (diner dans le noir, etc.)
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Militer pour la parité dans
+    l’entreprise et une égalité des
+    salaires
+  thedate: ""
+  type: travail
+- 
+  action: "Mettre KO les stéréotypes avec l’ADOSEN - à l'Agora"
+  thedate: ""
+  type: festival
+- 
+  action: "Jouer au chamboule-tout contre les clichés - à l'Agora"
+  thedate: ""
+  type: festival
+- 
+  action: >
+    Découvrir un parcours sportif pas comme
+    les autres… Toit des associations
+  thedate: ""
+  type: festival
+- 
+  action: 'Journée internationale des droits des femmes : 8 mars'
+  thedate: 2019-03-08
+  type: evenements
+- 
+  action: 'Journée contre l’homophobie : 17 mai'
+  thedate: 2019-05-17
+  type: evenements
+- 
+  action: 'Journée contre le racisme : 21 Mars'
+  thedate: 2019-03-21
+  type: evenements
