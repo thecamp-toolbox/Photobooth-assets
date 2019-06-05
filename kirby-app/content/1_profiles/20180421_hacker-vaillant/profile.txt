@@ -1,0 +1,103 @@
+Title: Hacker vaillant
+
+----
+
+Subject: Maîtrise des avancées technologiques
+
+----
+
+Tags: IA, inclusion
+
+----
+
+Cover: 
+
+- techno.png
+
+----
+
+Intro: SAV César !
+
+----
+
+Text: 
+
+Faire face au bouleversement numérique et technologique que connait la société est un enjeu majeur de notre génération et des suivantes, et cela vous anime!
+
+Éthique, fracture numérique et inclusion, respect de la vie privée, impact sur la santé, empreinte écologique sont autant de sujets au centre de vos préoccupations pour le monde de demain.
+
+Envie de vous engager plus activement pour la maîtrise des avancées technologiques ?
+
+----
+
+Actions: 
+
+- 
+  action: Apprendre à démistyfier les fake news
+  type: maison
+  org: 'Petits Débrouillards '
+  orglink: http://www.lespetitsdebrouillards.org/
+- 
+  action: 'Apprendre à sécuriser ses données '
+  type: maison
+  org: 'Crypto party '
+  orglink: https://partipirate.org/
+- 
+  action: Réparer mes appareils technologiques
+  type: maison
+- 
+  action: Recycler mes déchets électroniques
+  type: maison
+- 
+  action: Utiliser des outils libres
+  type: maison
+- 
+  action: >
+    Former des gens à l’utilisation des
+    outils numériques
+  type: dehors
+- 
+  action: 'Participer à un Repair Café '
+  type: dehors
+- 
+  action: 'M’engager dans mon fablab de quartier '
+  type: dehors
+- 
+  action: Assurer mon droit à la déconnexion
+  type: travail
+- 
+  action: >
+    Effacer mes courriels pour limiter
+    l’utilisation des serveurs
+  type: travail
+- 
+  action: >
+    Savoir déconnecter en allant à
+    l’espace dédié à la sieste et au
+    sommeil
+  type: festival
+- 
+  action: >
+    Échanger avec des youtubers et des
+    gamers au chapiteau des idées
+  type: festival
+
+----
+
+Skills: 
+
+----
+
+Color: #0063FF
+
+----
+
+Date: 2018-04-21 15:10
+
+----
+
+Author: 
+
+----
+
+Gallery: photography/ocean

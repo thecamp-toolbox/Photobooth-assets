@@ -24,10 +24,6 @@ columns:
             label: Enjeu associé 
             type: text 
           tags: true
-          skills: 
-            type: text
-          color: 
-            type: color
           cover:
             label: Cover 
             type: files
@@ -52,10 +48,15 @@ columns:
           action:
             label: Action
             type: text
-          org: 
-            label: Organisation
-            type: text 
-          orglink: 
-            label: Org Link 
-            type: url
-
+          thedate: 
+            label: Date 
+            type: date
+          type: 
+            label: Type 
+            type: select 
+            options: 
+              maison: À la maison 
+              dehors: En dehors de chez moi
+              travail: Au travail 
+              evenements: Evénements 
+              festival: Au sein du festival 

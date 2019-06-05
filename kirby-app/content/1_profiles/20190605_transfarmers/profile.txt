@@ -1,0 +1,136 @@
+Title: TransFarmers
+
+----
+
+Subject: Alimentation durable
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+- alimentation.png
+
+----
+
+Intro: L'oignon fait la force !
+
+----
+
+Text: 
+
+Réussir à nourrir tous les humains tout en préservant notre santé et notre écosystème est sans conteste un enjeu majeur de notre génération et des suivantes, et cela vous anime!
+
+Répartition équitable des ressources dans le monde, santé, agriculture durable, éthique animale et gaspillage alimentaire, sont autant de sujets au centre de vos préoccupations pour la construction du monde de demain.
+
+Envie de vous engager plus activement pour un meilleur système alimentaire ?
+
+----
+
+Actions: 
+
+- 
+  action: >
+    Cuisiner des produis frais et éviter
+    les produits transformés
+  thedate: ""
+  type: maison
+- 
+  action: Faire un potager en permaculture
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Faire la chasse au gaspillage
+    alimentaire
+  thedate: ""
+  type: maison
+- 
+  action: Réduire ma consommation de viande
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Faire mes courses à la ferme ou dans
+    une AMAP
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Favoriser l’achat de produits
+    labellisés, locaux et de saison
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Acheter des produits invendus (too good
+    to go…)
+  thedate: ""
+  type: dehors
+- 
+  action: Faire des dons aux banques alimentaires
+  thedate: ""
+  type: dehors
+- 
+  action: 'M’engager dans une action humanitaire '
+  thedate: ""
+  type: dehors
+- 
+  action: Soutenir une association militante
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Inciter mon entreprise à proposer une
+    offre de restauration durable
+    (approvisionnements locaux et de saison,
+    offre végétarienne, etc.)
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Organiser des collectes dans mon
+    entreprise pour redistribution aux
+    banques alimentaires
+  thedate: ""
+  type: travail
+- 
+  action: Organiser un challenge contre la faim
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Mettre en place la livraison de paniers
+    de fruits et légumes sur mon lieu de
+    travail
+  thedate: ""
+  type: travail
+- 
+  action: "Surveiller ma glycémie avec un test rapide ! À l'Agora"
+  thedate: ""
+  type: festival
+- 
+  action: >
+    Réaliser un smoothie avec des fruits de
+    saison !
+  thedate: ""
+  type: festival
+- 
+  action: >
+    Participer à un atelier culinaire au
+    terrain des mômes
+  thedate: ""
+  type: festival
+- 
+  action: 'Semaine du Goût : 8 au 14 octobre 2019 '
+  thedate: 2019-10-08
+  type: evenements
+- 
+  action: >
+    Journée mondiale de l’alimentation 16
+    octobre 2019
+  thedate: 2019-10-16
+  type: evenements

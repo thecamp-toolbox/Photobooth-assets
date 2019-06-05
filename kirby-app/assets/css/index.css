@@ -27,18 +27,15 @@ h1 {
 	bottom: 0px;
 	left: 0px;
 }
+#profile-icon {
+	position: absolute;
+	bottom: 100px;
+	right: 20px;
+}
 .btn-secondary {
 	background-color: rgb(255, 236, 0);
 	color: rgb(0, 0, 183);
 	border: none;
-}
-.card {
-	background-image: url('../images/placeholder.png');
-	background-size: cover;
-	background-position: center center;
-	background-color: black;
-	background-blend-mode: overlay;
-	position: relative;
 }
 .calendar {
 	position: absolute;

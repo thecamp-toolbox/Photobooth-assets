@@ -13,10 +13,13 @@
   </ul>
 
   <div class="pt-3">
-    <h4><?= $page->intro() ?></h4>
+    <h4>"<?= $page->intro() ?>"</h4>
   </div>
 
-  <!-- Mettre l'icone ici -->
+  <?php if ($page->cover() != '') : ?>
+    <?php $cover = $page->cover()->toFile() ?>
+    <img src="<?= $cover->url() ?>" id="profile-icon">
+  <?php endif ?>
 </div>
 
 <div id="profil" class="container-fluid yellow pt-3 pb-3">
@@ -56,14 +59,14 @@
   <a class="btn btn-block mb-3" href="">SUR LE FESTIVAL</a>
 
 
-
   <div class="mt-4">
     <?php foreach ($page->actions()->toStructure() as $action) : ?>
-      <div class="card mb-4">
-        <div class="card-body" style="background-image:url('<?= $site->url() ?>/assets/images/placeholder.png')">
+      <div class="card mb-4 <?= $action->type() ?> bg-dark">
+        <div class="card-body">
           <h5 class="card-title">
             <?= $action->action() ?>
           </h5>
+          <?= $action->thedate() ?>
         </div>
         <a href="" class="calendar">
           <img src="<?= $site->url() ?>/assets/images/calendar.png" class="img-fluid">

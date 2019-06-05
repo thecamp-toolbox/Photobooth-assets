@@ -1,0 +1,176 @@
+Title: Écocentrique
+
+----
+
+Subject: Éco-responsabilité
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+- ecologie.png
+
+----
+
+Intro: Ne pas laisser faire l'effet de serre !
+
+----
+
+Text: 
+
+Trouver un équilibre entre activité humaine, préservation des écosystèmes naturels et prospérité économique est sans conteste un enjeu majeur de notre génération et des suivantes, et cela vous anime!
+
+Changement climatique, disponibilité des ressources, biodiversité, énergies, déchets, sont autant de sujets au centre de vos préoccupations pour le monde de demain.
+
+Envie de vous engager plus activement pour le respect de l’environnement ?
+
+----
+
+Actions: 
+
+- 
+  action: >
+    Estimer et limiter mes émissions
+    annuelles de GES
+  thedate: ""
+  type: maison
+- 
+  action: Composter vos déchets organiques
+  thedate: ""
+  type: maison
+- 
+  action: 'Faire la chasse au gaspillage : aliments, eau, énergie, etc.'
+  thedate: ""
+  type: maison
+- 
+  action: Réduire ma consommation de viande
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Limiter les produits tropicaux
+    (chocolat, café, bananes, etc.)
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Installer un stop pub sur ma boite aux
+    lettres
+  thedate: ""
+  type: maison
+- 
+  action: >
+    Passer chez un fournisseur
+    d’électricité verte
+  thedate: ""
+  type: maison
+- 
+  action: Ajuster mon thermostat clim/chauffage
+  thedate: ""
+  type: maison
+- 
+  action: 'Réduire les produits et emballages à usage unique : faire mes courses en vrac, préférer le café en grain, etc.'
+  thedate: ""
+  type: dehors
+- 
+  action: Me lancer dans le défi Rien de Neuf
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Mobiliser mon entourage autour de ces
+    problématiques
+  thedate: ""
+  type: dehors
+- 
+  action: Soutenir une association militante
+  thedate: ""
+  type: dehors
+- 
+  action: >
+    Encourager mon entreprise à intégrer
+    le respect de l’environnement dans ses
+    pratiques et projets
+  thedate: ""
+  type: travail
+- 
+  action: Utiliser une tasse à café lavable
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Aller au travail en vélo ou en
+    transports en commun
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Initier le covoiturage entre collègues
+    dans votre entreprise
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Préférer le train à l‘avion pour
+    mes déplacements professionnels
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Militer pour une offre de restauration
+    végétarienne
+  thedate: ""
+  type: travail
+- 
+  action: Vider ma boite mail chaque jour
+  thedate: ""
+  type: travail
+- 
+  action: >
+    Recycler les matières (papiers,
+    plastiques, cartouches, etc.)
+  thedate: ""
+  type: travail
+- 
+  action: "Venez récupérer votre guide écoresponsable à l'Agora"
+  thedate: ""
+  type: festival
+- 
+  action: >
+    Laisser parler son âme d’artiste en
+    créant avec des objets recyclés au
+    toit des associations
+  thedate: ""
+  type: festival
+- 
+  action: 'Effleurer et porter un oiseau : la bio-diversité c’est chouette ! Au toit des associations'
+  thedate: ""
+  type: festival
+- 
+  action: 'Jour du Dépassement (Europe) : 10 mai 2019'
+  thedate: 2019-05-10
+  type: evenements
+- 
+  action: 'World Clean Up Day : 21 septembre 2019'
+  thedate: 2019-09-21
+  type: evenements
+- 
+  action: 'Journée sans voiture : 22 septembre 2019'
+  thedate: 2019-09-22
+  type: evenements
+- 
+  action: 'Journée mondiale du végétarisme : 1er octobre 2019'
+  thedate: 2019-10-01
+  type: evenements
+- 
+  action: 'Semaine Européenne de la réduction des déchets : 16 au 24 novembre'
+  thedate: 2019-11-16
+  type: evenements
+- 
+  action: 'Journée sans achats : vendredi 29 novembre'
+  thedate: 2019-11-29
+  type: evenements
