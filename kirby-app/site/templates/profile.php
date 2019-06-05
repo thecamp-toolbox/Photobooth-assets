@@ -9,10 +9,10 @@
 
   <ul class="main-nav nav nav-pills nav-justified">
     <li class="nav-item">
-      <a class="btn-nav nav-link active mr-1" href="#profil">MON PROFIL</a>
+      <a class="btn-nav nav-link active ml-2" href="#profil">MON PROFIL</a>
     </li>
     <li class="nav-item">
-      <a class="btn-nav nav-link active ml-1" href="#agir">   AGIR   </a>
+      <a class="btn-nav nav-link active ml-2" href="#agir">   AGIR   </a>
     </li>
   </ul>
 
@@ -22,6 +22,7 @@
 
   <?php if ($page->cover() != '') : ?>
     <?php $cover = $page->cover()->toFile() ?>
+    <img id="profile-icon" src="<?= $cover->url() ?>"/>
   <?php endif ?>
 </div>
 
@@ -47,25 +48,25 @@
 
   <div class="button-group filters-button-group">
 
-  <ul class="nav nav-pills nav-justified">
+  <ul class="nav nav-pills nav-justified mb-3">
     <li class="nav-item">
-      <a class="button is-checked nav-link active mr-2" data-filter="maison">À LA MAISON</a>
+      <a class="button is-checked nav-link active mr-2 p-3" data-filter="maison">À LA MAISON</a>
     </li>
     <li class="nav-item">
-      <a class="button nav-link ml-2" data-filter="dehors">DEHORS</a>
-    </li>
-  </ul>
-
-  <ul class="nav nav-pills nav-justified ">
-    <li class="nav-item">
-      <a class="nav-link mr-2" data-filter="travail">AU TRAVAIL</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link ml-2" data-filter="evenements">ÉVÉNEMENTS</a>
+      <a class="button nav-link ml-2 p-3" data-filter="dehors">DEHORS</a>
     </li>
   </ul>
 
-  <a class="btn btn-block mb-3" data-filter="festival">SUR LE FESTIVAL</a>
+  <ul class="nav nav-pills nav-justified mb-3 ">
+    <li class="nav-item">
+      <a class="nav-link mr-2 p-3" data-filter="travail">AU TRAVAIL</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link ml-2 p-3" data-filter="evenements">ÉVÉNEMENTS</a>
+    </li>
+  </ul>
+
+  <a class="btn btn-block mb-3 p-3" data-filter="festival">SUR LE FESTIVAL</a>
 </div>
 
 

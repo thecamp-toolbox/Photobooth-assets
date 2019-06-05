@@ -44,7 +44,7 @@ h1 {
 }
 #bg1 {
 	position: absolute;
-	bottom: 0px;
+	top: -108px;
 	left: 0px;
 }
 #profile-icon {
@@ -144,8 +144,6 @@ span.addeventatc_dropdown {
 
 
 a.btn-nav {
-    width: 137px;
-    height: 65px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -158,10 +156,11 @@ a.btn-nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px 0px;
 }
 
 .main-nav {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 h4#slogan {
@@ -202,9 +201,10 @@ h4#slogan {
 #agir a.nav-link, #agir .btn-block {
     background: white;
     color: #1132b8;
-    margin-bottom: 10px;
     font-family: GTAmerica Exp Bold;
     font-size: 12px !important;
+    border: none;
+    border: 2px solid white !important;
 }
 
 #agir a.nav-link.active.mr-2 {
@@ -218,7 +218,7 @@ h4#slogan {
 .card-body {
     background: #ffec4f;
     color: #1132b7;
-    border-radius: 5px;
+    border-radius: .25rem;
     font-family: 'GTAmerica Exp Bold';
     font-size: 19px !important;
 }
@@ -261,4 +261,17 @@ h2.mb-3 {
 
 .card.mb-5.bg-dark {
     border: none !important;
+}
+
+
+#profil p, #agir p {
+    font-size: 18px;
+}
+
+.card.element-item.mb-5 {
+    width: 100%;
+}
+
+div#profil {
+    position: relative;
 }
