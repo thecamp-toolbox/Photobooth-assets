@@ -1,4 +1,8 @@
 <?php
+return [
+    'debug' => true,
+];
+
 
 return [
   'routes' => [
@@ -45,8 +49,3 @@ return [
     ]
   ]
 ];
-
-return [
-    'debug' => true,
-];
-

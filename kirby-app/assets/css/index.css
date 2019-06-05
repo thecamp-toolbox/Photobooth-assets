@@ -1,8 +1,27 @@
+@font-face {
+font-family: "GTAmerica Exp Bla Ita";
+src: url("../font/GT-America-Expanded-Black-Italic.ttf");
+}
+
+@font-face {
+font-family: "GTAmerica Exp Bold";
+src: url("../font/GT-America-Expanded-Bold.ttf");
+}
+
+@font-face {
+font-family: "GTAmerica";
+src: url("../font/GT-America-Standard-Regular.ttf");
+}
+
+
+
+
 html, body {
 	height: 100%;
 }
 body {
 	background-image: url('../images/wood.jpg');
+	font-family: 'GTAmerica';
 }
 h1 {
 	color: white;
@@ -109,4 +128,136 @@ span.addeventatc_dropdown {
 	background-color: rgb(0, 0, 183);
 	color: white;
 	border-radius: .25rem;
+	vertical-align: middle;
+	padding-right: 45px !important;
+}
+
+
+.intro h1 {font-family: 'GTAmerica Exp Bold';font-size: 30px;color: #FFF;}
+
+.intro h3 {
+    font-family: 'GTAmerica Exp Bold';
+    font-size: 20px;
+    color: #FFF;
+}
+
+
+a.btn-nav {
+    width: 137px;
+    height: 65px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(255,236,0,255) !important;
+    color: #1132b8 !important;
+    font-family: "GTAmerica Exp Bold";
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav {
+    margin-top: 100px;
+}
+
+h4#slogan {
+    position: absolute;
+    bottom: 50px;
+    transform: rotate(-15deg);
+    left: 83px;
+    font-family: 'GTAmerica Exp Bla Ita';
+    font-size: 20px;
+}
+.btn-share {
+	width: 200px;
+	height: 36px;
+	font-family: GTAmerica;
+	font-size: 16px;
+	color: #0000b7;
+	background: white;
+	padding: 5px 15px;
+	display: block;
+	text-align: left;
+	border-radius: 3px;
+	position: relative;
+}
+
+#profil h2 {
+    font-family: GTAmerica Exp Bold;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+
+#agir h4 {
+    font-family: GTAmerica Exp Bold;
+    font-size: 30px;
+}
+
+
+#agir a.nav-link, #agir .btn-block {
+    background: white;
+    color: #1132b8;
+    margin-bottom: 10px;
+    font-family: GTAmerica Exp Bold;
+    font-size: 12px !important;
+}
+
+#agir a.nav-link.active.mr-2 {
+    background: #1132b8;
+    border: 2px solid white !important;
+    color: white;
+}
+
+.card-body {}
+
+.card-body {
+    background: #ffec4f;
+    color: #1132b7;
+    border-radius: 5px;
+    font-family: 'GTAmerica Exp Bold';
+    font-size: 19px !important;
+}
+
+h5.card-title {
+    font-size: 15px;
+}
+
+.card.mb-4.maison.bg-dark {
+    border: none;
+}
+
+h2.mb-3 {
+    font-family: GTAmerica Exp Bold;
+    font-size: 30px;
+    color: #1132b7;
+    margin-bottom: 35px !important;
+}
+
+.profile-card h5.mt-0 {
+    font-family: GTAmerica Exp Bold;
+    font-size: 18px;
+}
+
+.media-body p {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.media-body p span {
+    font-size: 32px;
+    position: absolute;
+    bottom: -34px;
+    right: -33px;
+}
+
+.card.mb-4.bg-dark {
+    border: none;
+}
+
+.card.mb-5.bg-dark {
+    border: none !important;
 }

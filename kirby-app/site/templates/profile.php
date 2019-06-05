@@ -1,34 +1,36 @@
 <?php snippet('header') ?>
 
-<div class="container-fluid landing">
-  <h1><?= $page->title() ?></h1>
 
-  <ul class="nav nav-pills nav-justified">
+<div class="container-fluid landing">
+  <div class="intro">
+     <h3>Bonjour</h3>
+     <h1><?= $page->title() ?> !</h1>
+  </div>
+
+  <ul class="main-nav nav nav-pills nav-justified">
     <li class="nav-item">
-      <a class="nav-link active mr-2" href="#profil">MON PROFIL</a>
+      <a class="btn-nav nav-link active mr-1" href="#profil">MON PROFIL</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active ml-2" href="#agir">   AGIR   </a>
+      <a class="btn-nav nav-link active ml-1" href="#agir">   AGIR   </a>
     </li>
   </ul>
 
   <div class="pt-3">
-    <h4>"<?= $page->intro() ?>"</h4>
+    <h4 id="slogan">"<?= $page->intro() ?>"</h4>
   </div>
 
   <?php if ($page->cover() != '') : ?>
     <?php $cover = $page->cover()->toFile() ?>
-    <img src="<?= $cover->url() ?>" id="profile-icon">
   <?php endif ?>
 </div>
 
 <div id="profil" class="container-fluid yellow pt-3 pb-3">
-  <h2>Mon profil :<br></h2>
-  <span class="profil-title"><?= $page->title() ?></span><br>
+  <h2>Mon profil <br>  <span class="profil-title"><?= $page->title() ?></span></h2>
 
   <p>Enjeu : <?= $page->subject() ?></p>
 
-  <a href="#" class="btn btn-primary mb-5">Partager mon profil</a>
+  <a href="https://www.facebook.com/dialog/share?app_id=2080282928931116&display=popup&href=<?= 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>&redirect_uri=<?= 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" class="btn-share btn-primary mb-4 mt-4">Partager mon profil &nbsp;&nbsp; <span style="font-size: 25px;position: absolute;top: -2px;">↬</span> </a>
   <?= $page->text()->kt() ?>
 
   <img src="<?= $site->url() ?>/assets/images/bg1.png" class="img-fluid" id="bg1">
@@ -38,9 +40,11 @@
 
 <div id="agir" class="container-fluid blue pb-1">
   <h4>Agir</h4>
-  <p>Voici quelques exemples d'actions correspondant à votre profil</p>
-
-  <ul class="nav nav-pills nav-justified mb-3">
+  <p class="mt-3">Voici quelques exemples d'actions correspondant à votre profil. Vous pourrez ainsi vous engager en les positionnant dans votre calendrier !</p>
+  <p class="mt-5">
+     Où souhaitez vous agir ?
+  </p>
+  <ul class="nav nav-pills nav-justified">
     <li class="nav-item">
       <a class="nav-link active mr-2" href="">À LA MAISON</a>
     </li>
@@ -49,7 +53,7 @@
     </li>
   </ul>
 
-  <ul class="nav nav-pills nav-justified mb-3">
+  <ul class="nav nav-pills nav-justified ">
     <li class="nav-item">
       <a class="nav-link mr-2" href="">AU TRAVAIL</a>
     </li>
@@ -61,9 +65,9 @@
   <a class="btn btn-block mb-3" href="">SUR LE FESTIVAL</a>
 
 
-  <div class="mt-4">
+  <div class="mt-5">
     <?php foreach ($page->actions()->toStructure() as $action) : ?>
-      <div class="card mb-4 <?= $action->type() ?> bg-dark">
+      <div class="card mb-5 <?= $action->type() ?> bg-dark">
         <div class="card-body">
           <h5 class="card-title">
             <?= $action->action() ?>
@@ -81,7 +85,7 @@
 
 <img src="<?= $site->url() ?>/assets/images/bg3.png" class="img-fluid">
 
-<div class="container mt-5 mb-3">  
+<div class="container mt-5 mb-3">
   <nav id="menu" class="menu">
 
     <h2 class="mb-3">Autres profils</h2>
@@ -93,7 +97,7 @@
         <?php snippet('profile-card', array('item'=>$item)) ?>
 
       <?php endif ?>
-        
+
       <?php endforeach ?>
   </nav>
 </div>
