@@ -71,7 +71,7 @@
 </div>
 
 
-  <div class="mt-5 grid" data-isotope='{ "itemSelector": ".element-item", "layoutMode": "fitRows" }'>
+  <div class="mt-5 grid" >
     <?php foreach ($page->actions()->toStructure() as $action) : ?>
       <div class="card element-item  mb-5 <?= $action->type() ?> bg-dark">
         <div class="card-body">
@@ -107,5 +107,24 @@
       <?php endforeach ?>
   </nav>
 </div>
+<script type="text/javascript">
+
+
+  var $grid = $('.grid').isotope({
+    itemSelector: '.element-item',
+    layoutMode: 'fitRows'
+  });
+
+  $grid.isotope({ filter: '.maison'});
+
+  $(".filters-button-group a").click(function(){
+
+    $(".filters-button-group a.active").removeClass("active");
+  	var filterValue = $(this).attr("data-filter");
+  	$grid.isotope({ filter: '.'+filterValue });
+    $(this).addClass("active");
+
+  });
+</script>
 
 <?php snippet('footer') ?>

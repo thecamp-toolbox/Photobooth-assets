@@ -204,9 +204,10 @@ h4#slogan {
     font-size: 12px !important;
     border: none;
     border: 2px solid white !important;
+    transition: background-color 0.5s ease;
 }
 
-#agir a.nav-link.active.mr-2 {
+#agir .filters-button-group a.active {
     background: #1132b8;
     border: 2px solid white !important;
     color: white;
