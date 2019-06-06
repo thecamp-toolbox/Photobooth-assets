@@ -2,6 +2,10 @@
 
 
 <div class="container-fluid landing">
+  <div class=" alert-mobile" style="display:none">
+    ⚠ Ce site est disponible uniquement en version mobile !
+  </div>
+
   <div class="intro">
      <h3>Bonjour</h3>
      <h1><?= $page->title() ?> !</h1>

@@ -287,3 +287,20 @@ a.btn-nav.nav-link {
     font-size: 12px;
     margin-right: 0 !important;
 }
+
+.page {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px)  {
+	.alert-mobile {
+		display: inline-block !important;
+		margin-bottom: 25px;
+		padding: 24px;
+		font-size: 14px;
+	}
+	.landing{
+		padding-top: 0 !important;
+	}
+}
