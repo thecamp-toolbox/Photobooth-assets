@@ -6,7 +6,7 @@
 	  <?php endif ?>
 	  <div class="media-body">
 	    <h5 class="mt-0"><?= $item->title() ?></h5>
-	    <p>"<?= $item->intro() ?>"<br /><span>→</span></p>
+	    <p><?= $item->subject(); ?><br /><span>→</span></p>
 	  </div>
 	</div>
 </a>
