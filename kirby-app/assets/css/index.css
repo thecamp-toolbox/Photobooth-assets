@@ -28,11 +28,14 @@ h1 {
 	color: white;
 }
 .landing {
-	height: 100vh;
+	height: 690px;
 	padding-top: 5em;
 	background-image: url(../images/cover.png);
 	background-size: cover;
 	color: white;
+	position: relative;
+	padding-left: 0;
+	padding-right: 0;
 }
 .yellow {
 	background-color: rgb(255, 236, 0);
@@ -42,11 +45,7 @@ h1 {
 	background-color: rgb(0, 0, 183);
 	color: white;
 }
-#bg1 {
-	position: absolute;
-	top: -108px;
-	left: 0px;
-}
+#bg1 {position: absolute;bottom: 5px;}
 #profile-icon {
 	position: absolute;
 	bottom: 100px;
@@ -134,7 +133,7 @@ span.addeventatc_dropdown {
 }
 
 
-.intro h1 {font-family: 'GTAmerica Exp Bold';font-size: 30px;color: #FFF;}
+.intro h1 {font-family: 'GTAmerica Exp Bold';font-size: 26px;color: #FFF;}
 
 .intro h3 {
     font-family: 'GTAmerica Exp Bold';
@@ -274,4 +273,15 @@ h2.mb-3 {
 
 div#profil {
     position: relative;
+    margin-top: -6px;
+}
+
+
+.intro {
+    padding: 0 25px;
+}
+
+a.btn-nav.nav-link {
+    width: 140px;
+    font-size: 12px;
 }

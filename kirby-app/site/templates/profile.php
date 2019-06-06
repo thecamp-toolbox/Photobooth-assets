@@ -9,10 +9,10 @@
 
   <ul class="main-nav nav nav-pills nav-justified">
     <li class="nav-item">
-      <a class="btn-nav nav-link active ml-2" href="#profil">MON PROFIL</a>
+      <a class="btn-nav nav-link active ml-4" href="#profil">MON PROFIL</a>
     </li>
     <li class="nav-item">
-      <a class="btn-nav nav-link active ml-2" href="#agir">   AGIR   </a>
+      <a class="btn-nav nav-link active mr-4" href="#agir">   AGIR   </a>
     </li>
   </ul>
 
@@ -24,9 +24,11 @@
     <?php $cover = $page->cover()->toFile() ?>
     <img id="profile-icon" src="<?= $cover->url() ?>"/>
   <?php endif ?>
-</div>
+  <img src="<?= $site->url() ?>/assets/images/bg1.png" class="img-fluid" id="bg1">
 
+</div>
 <div id="profil" class="container-fluid yellow pt-3 pb-3">
+
   <h2>Mon profil <br>  <span class="profil-title"><?= $page->title() ?></span></h2>
 
   <p>Enjeu : <?= $page->subject() ?></p>
@@ -34,7 +36,6 @@
   <a href="https://www.facebook.com/dialog/share?app_id=2080282928931116&display=popup&href=<?= 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>&redirect_uri=<?= 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" class="btn-share btn-primary mb-4 mt-4">Partager mon profil &nbsp;&nbsp; <span style="font-size: 25px;position: absolute;top: -2px;">↬</span> </a>
   <?= $page->text()->kt() ?>
 
-  <img src="<?= $site->url() ?>/assets/images/bg1.png" class="img-fluid" id="bg1">
 </div>
 
 <img src="<?= $site->url() ?>/assets/images/bg2.png" class="img-fluid">
