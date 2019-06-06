@@ -48,7 +48,7 @@ h1 {
 #bg1 {position: absolute;bottom: 5px;}
 #profile-icon {
 	position: absolute;
-	bottom: 100px;
+	bottom: 150px;
 	right: 20px;
 }
 .btn-secondary {
@@ -164,7 +164,7 @@ a.btn-nav {
 
 h4#slogan {
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
     transform: rotate(-15deg);
     left: 83px;
     font-family: 'GTAmerica Exp Bla Ita';
@@ -284,4 +284,5 @@ div#profil {
 a.btn-nav.nav-link {
     width: 140px;
     font-size: 12px;
+    margin-right: 0 !important;
 }

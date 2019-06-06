@@ -12,7 +12,7 @@
       <a class="btn-nav nav-link active ml-4" href="#profil">MON PROFIL</a>
     </li>
     <li class="nav-item">
-      <a class="btn-nav nav-link active mr-4" href="#agir">   AGIR   </a>
+      <a class="btn-nav nav-link active ml-4" href="#agir">   AGIR   </a>
     </li>
   </ul>
 
