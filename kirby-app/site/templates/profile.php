@@ -84,7 +84,18 @@
           </h5>
         </div>
         <div class="addeventatc calendar" data-intel="false" >
-          <span class="start"><?= $action->thedate() ?></span>
+          <span class="start">
+            <?php
+
+            if($action->thedate()->isEmpty()){
+              $datetime = new DateTime('tomorrow');
+              echo $datetime->format('Y-m-d');
+            }else {
+              echo $action->thedate();
+            }
+
+            ?>
+          </span>
           <span class="timezone">Europe/Paris</span>
           <span class="title">  <?= $action->action() ?>  </span>
         </div>
